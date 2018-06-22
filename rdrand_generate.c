@@ -8,10 +8,10 @@ int main(){
     unsigned int r; 
     while(!_rdrand32_step(&r)) {
         count++;
-	if(count < MAXRETRY) {
+        if(count < MAXRETRY) {
             printf("error.");
             return -1;
-	}
+        }
     }
 
     printf("result: %d\n", r);
