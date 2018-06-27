@@ -14,6 +14,6 @@ int main(){
         }
     }
 
-    printf("result: %d\n", r);
+    printf("result: %u\n", r);
     return 0;
 }
