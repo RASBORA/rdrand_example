@@ -5,7 +5,7 @@
 
 int main(){
     int count = 0;
-    unsigned int r; 
+    unsigned int r;
     while(!_rdrand32_step(&r)) {
         count++;
         if(count < MAXRETRY) {
